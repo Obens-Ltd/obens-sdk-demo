@@ -1,0 +1,258 @@
+{
+ "accounts": [
+  {
+   "id": "mango-cooperative",
+   "name": "Mango Cooperative",
+   "stage": "Fresh Mango",
+   "subActors": [
+    {
+     "id": "grw-001",
+     "firstName": "Aminata",
+     "lastName": "Traoré",
+     "phone": "+22670000001",
+     "gender": "F",
+     "village": "Banfora"
+    },
+    {
+     "id": "grw-002",
+     "firstName": "Aminata",
+     "lastName": "Traoré",
+     "phone": "+22670000002",
+     "gender": "F",
+     "village": "Orodara"
+    },
+    {
+     "id": "grw-003",
+     "firstName": "Issouf",
+     "lastName": "Ouédraogo",
+     "phone": "+22670000003",
+     "gender": "M",
+     "village": "Banfora"
+    },
+    {
+     "id": "grw-004",
+     "firstName": "Kadi",
+     "lastName": "Sanou",
+     "phone": "+22670000004",
+     "gender": "X",
+     "village": "Bobo-Dioulasso"
+    }
+   ],
+   "facilities": [
+    {
+     "id": "orc-001",
+     "subActorId": "grw-001",
+     "name": "Kent orchard north",
+     "description": null,
+     "variety": "Kent",
+     "plantedOn": "2021-06-15",
+     "latitude": 10.6312,
+     "longitude": -4.7611,
+     "outline": [
+      {
+       "lat": 10.631,
+       "lng": -4.7615
+      },
+      {
+       "lat": 10.631,
+       "lng": -4.76
+      },
+      {
+       "lat": 10.6322,
+       "lng": -4.76
+      },
+      {
+       "lat": 10.6322,
+       "lng": -4.7615
+      }
+     ]
+    },
+    {
+     "id": "orc-002",
+     "subActorId": "grw-003",
+     "name": "Amelie orchard",
+     "description": null,
+     "variety": "Amelie",
+     "plantedOn": "2019-03-02",
+     "latitude": 10.6401,
+     "longitude": -4.7512,
+     "outline": [
+      {
+       "lat": 10.6401,
+       "lng": -4.7512
+      }
+     ]
+    },
+    {
+     "id": "orc-003",
+     "subActorId": "grw-002",
+     "name": "Amelie orchard east",
+     "description": null,
+     "variety": "Amelie",
+     "plantedOn": "2020-04-20",
+     "latitude": 10.5902,
+     "longitude": -4.8011,
+     "outline": null
+    },
+    {
+     "id": "site-001",
+     "subActorId": null,
+     "name": "Collection point",
+     "description": "Weighing and first sorting of fresh mango",
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 10.6188,
+     "longitude": -4.7702,
+     "outline": null
+    }
+   ]
+  },
+  {
+   "id": "mango-processor",
+   "name": "Mango Processor",
+   "stage": "Sliced Mango",
+   "subActors": [
+    {
+     "id": "grw-001",
+     "firstName": "Moussa",
+     "lastName": "Compaoré",
+     "phone": "+22671000001",
+     "gender": "M",
+     "village": "Bobo-Dioulasso"
+    },
+    {
+     "id": "grw-002",
+     "firstName": "Fatoumata",
+     "lastName": "Zongo",
+     "phone": "+22671000002",
+     "gender": "F",
+     "village": "Bobo-Dioulasso"
+    }
+   ],
+   "facilities": [
+    {
+     "id": "orc-001",
+     "subActorId": "grw-001",
+     "name": "Moussa's slicing station",
+     "description": null,
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 11.1851,
+     "longitude": -4.291,
+     "outline": null
+    },
+    {
+     "id": "orc-002",
+     "subActorId": "grw-002",
+     "name": "Fatoumata's slicing station",
+     "description": null,
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 11.179,
+     "longitude": -4.3052,
+     "outline": null
+    },
+    {
+     "id": "site-001",
+     "subActorId": null,
+     "name": "Drying plant",
+     "description": "Solar drying, 12 tonnes a day",
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 11.1771,
+     "longitude": -4.2979,
+     "outline": null
+    },
+    {
+     "id": "site-002",
+     "subActorId": null,
+     "name": "Slicing unit",
+     "description": "Washing, peeling and slicing, 8 tonnes a day",
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 11.1802,
+     "longitude": -4.3011,
+     "outline": null
+    }
+   ]
+  },
+  {
+   "id": "mango-exporter",
+   "name": "Mango Exporter",
+   "stage": "Dried Mango",
+   "subActors": [
+    {
+     "id": "grw-001",
+     "firstName": "Ibrahim",
+     "lastName": "Kaboré",
+     "phone": "+22672000001",
+     "gender": "M",
+     "village": "Ouagadougou"
+    }
+   ],
+   "facilities": [
+    {
+     "id": "orc-001",
+     "subActorId": "grw-001",
+     "name": "Ibrahim's packing point",
+     "description": null,
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 12.365,
+     "longitude": -1.5301,
+     "outline": null
+    },
+    {
+     "id": "site-001",
+     "subActorId": null,
+     "name": "Packing house",
+     "description": "Sorting, packing and export documents",
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 12.3714,
+     "longitude": -1.5197,
+     "outline": null
+    }
+   ]
+  },
+  {
+   "id": "mango-importer",
+   "name": "Mango Importer",
+   "stage": "Packaged Dried Mango",
+   "subActors": [
+    {
+     "id": "grw-001",
+     "firstName": "Sophie",
+     "lastName": "Martin",
+     "phone": "+31600000001",
+     "gender": "F",
+     "village": "Rotterdam"
+    }
+   ],
+   "facilities": [
+    {
+     "id": "orc-001",
+     "subActorId": "grw-001",
+     "name": "Sophie shop",
+     "description": null,
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 51.9225,
+     "longitude": 4.4792,
+     "outline": null
+    },
+    {
+     "id": "site-001",
+     "subActorId": null,
+     "name": "Rotterdam warehouse",
+     "description": "Cold storage and distribution to retailers",
+     "variety": null,
+     "plantedOn": null,
+     "latitude": 51.9244,
+     "longitude": 4.4777,
+     "outline": null
+    }
+   ]
+  }
+ ]
+}

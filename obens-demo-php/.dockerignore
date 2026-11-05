@@ -1,0 +1,7 @@
+vendor
+.git
+.github
+data/*.db
+.env
+Dockerfile
+docker-compose.yml

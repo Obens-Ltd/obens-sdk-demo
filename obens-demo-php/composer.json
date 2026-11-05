@@ -1,0 +1,28 @@
+{
+  "name": "obens/obens-demo-php",
+  "description": "A small platform (database, dashboard, API) whose backend stays in sync with Obens through the PHP SDK",
+  "type": "project",
+  "license": "MIT",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/Obens-Ltd/obens-sdk-php" }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "obens/obens-sdk": "^0.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6 || ^10.5"
+  },
+  "autoload": {
+    "psr-4": { "Demo\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Demo\\Tests\\": "tests/" }
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:3000 public/index.php",
+    "sync": "php bin/sync.php",
+    "test": "phpunit"
+  },
+  "config": { "process-timeout": 0 }
+}

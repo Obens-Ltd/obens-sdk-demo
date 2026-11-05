@@ -1,0 +1,15 @@
+# docker compose up --build        then open http://localhost:3000
+# Without OBENS_API_KEY the platform runs alone; with it, every change is also pushed to Obens.
+services:
+  platform:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      OBENS_API_KEY: ${OBENS_API_KEY:-}
+      OBENS_BASE_URL: ${OBENS_BASE_URL:-https://api.obens.so/v2/core}
+    volumes:
+      - platform-data:/data
+
+volumes:
+  platform-data:
