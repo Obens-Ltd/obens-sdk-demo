@@ -16,6 +16,25 @@ the user's stack before writing code**, and copy its shape:
 | PHP | `obens-demo-php/src/Integration.php` | `src/Mapping.php` | `src/Config.php` |
 | Java | `obens-demo-java/src/main/java/so/obens/demo/Integration.java` | `Mapping.java` | `Config.java` |
 
+## Documentation per language
+
+Read the SDK README for exact signatures (do not guess), and the demo README for how the pieces fit together.
+
+| Language | SDK (install, API reference, examples) | Demo (run it, field mapping, REST API) |
+|---|---|---|
+| JavaScript | <https://github.com/Obens-Ltd/obens-sdk-js#readme> · [releases](https://github.com/Obens-Ltd/obens-sdk-js/releases) | <https://github.com/Obens-Ltd/obens-sdk-demo/tree/master/obens-demo-js#readme> |
+| Python | <https://github.com/Obens-Ltd/obens-sdk-python#readme> · [releases](https://github.com/Obens-Ltd/obens-sdk-python/releases) | <https://github.com/Obens-Ltd/obens-sdk-demo/tree/master/obens-demo-python#readme> |
+| PHP | <https://github.com/Obens-Ltd/obens-sdk-php#readme> · [releases](https://github.com/Obens-Ltd/obens-sdk-php/releases) | <https://github.com/Obens-Ltd/obens-sdk-demo/tree/master/obens-demo-php#readme> |
+| Java | <https://github.com/Obens-Ltd/obens-sdk-java#readme> · [releases](https://github.com/Obens-Ltd/obens-sdk-java/releases) | <https://github.com/Obens-Ltd/obens-sdk-demo/tree/master/obens-demo-java#readme> |
+
+- All four demos, side by side: <https://github.com/Obens-Ltd/obens-sdk-demo#readme>.
+- The Integration API itself (endpoints, bulk limits, delegated accounts, errors) is documented in the Obens platform:
+  the **Integrations** page, **Documentation** tab, with the same examples in the four languages. Create and manage API
+  keys in its **API keys** tab, follow their traffic in **Usage**, and see how your ids map to Obens' in **External IDs**.
+- Install notes: the JavaScript SDK is published on GitHub Packages (`@obens-ltd/sdk`); the others are installed from
+  their git tag (Python `pip install git+https://github.com/Obens-Ltd/obens-sdk-python@<tag>`, PHP through Composer's
+  `vcs` repository, Java through JitPack or by building the tag). Check the SDK README for the current tag and method.
+
 The demo's platform (`db`, `server`, `public/index.html`) is deliberately Obens-free: do the same, do not leak Obens
 types into the user's models, routes or UI.
 
